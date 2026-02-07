@@ -164,7 +164,7 @@ class ToolRegistry:
 
 class BoundedAgent:
     """
-    Agente com boundaries enforceáveis.
+    Agente com boundaries mandatórios.
     PRINCÍPIO: Só pode fazer o que está explicitamente permitido.
     """
     
@@ -368,7 +368,7 @@ def demonstrate_action_boundaries():
     print("="*80)
     print("PRINCÍPIOS DEMONSTRADOS:")
     print("="*80)
-    print("✓ Segregação de roles enforceável tecnicamente")
+    print("✓ Segregação de roles mandatórios tecnicamente")
     print("✓ Validação server-side, não baseada em prompt")
     print("✓ Audit trail completo de execuções e tentativas bloqueadas")
     print("✓ Human-in-the-loop para ações críticas")
